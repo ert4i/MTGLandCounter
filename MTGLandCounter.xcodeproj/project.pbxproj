@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB88DFCD5A8DA2A5C9C09B29 /* libPods-MTGLandCounter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62626C484C83EBC63102FCD4 /* libPods-MTGLandCounter.a */; };
+		EA60F6982477C8C100A161B0 /* generateExcelCSVFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60F6972477C8C100A161B0 /* generateExcelCSVFile.swift */; };
+		EA60F69B2477C9C200A161B0 /* simulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60F69A2477C9C200A161B0 /* simulate.swift */; };
+		EA60F69D2477CA5B00A161B0 /* oneSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60F69C2477CA5B00A161B0 /* oneSimulation.swift */; };
+		EA60F69F2477CBF300A161B0 /* manaStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60F69E2477CBF300A161B0 /* manaStringConverter.swift */; };
+		EA60F6A12477D0CA00A161B0 /* benchmarkNormalSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA60F6A02477D0CA00A161B0 /* benchmarkNormalSimulation.swift */; };
+		EA78F2432472BE6C000AD983 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78F2422472BE6C000AD983 /* main.swift */; };
+		EA78F24A2472BEA3000AD983 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78F2492472BEA3000AD983 /* Card.swift */; };
+		EA78F24D2472BEDD000AD983 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78F24C2472BEDD000AD983 /* Hand.swift */; };
+		EA78F24F2472BEF7000AD983 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78F24E2472BEF7000AD983 /* Deck.swift */; };
+		EA78F2512472BF22000AD983 /* DrawSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78F2502472BF22000AD983 /* DrawSimulation.swift */; };
+		EA78F2532472C939000AD983 /* DrawSimulationSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78F2522472C939000AD983 /* DrawSimulationSuit.swift */; };
+		EAE61A6A2473CA1B00465EA2 /* benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE61A692473CA1B00465EA2 /* benchmark.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA78F23D2472BE6C000AD983 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E0CF669271675CCDD04073A /* Pods-MTGLandCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTGLandCounter.release.xcconfig"; path = "Target Support Files/Pods-MTGLandCounter/Pods-MTGLandCounter.release.xcconfig"; sourceTree = "<group>"; };
+		62626C484C83EBC63102FCD4 /* libPods-MTGLandCounter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTGLandCounter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B829B208D0E7EF0FF48856 /* Pods-MTGLandCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTGLandCounter.debug.xcconfig"; path = "Target Support Files/Pods-MTGLandCounter/Pods-MTGLandCounter.debug.xcconfig"; sourceTree = "<group>"; };
+		EA60F6972477C8C100A161B0 /* generateExcelCSVFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateExcelCSVFile.swift; sourceTree = "<group>"; };
+		EA60F69A2477C9C200A161B0 /* simulate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simulate.swift; sourceTree = "<group>"; };
+		EA60F69C2477CA5B00A161B0 /* oneSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneSimulation.swift; sourceTree = "<group>"; };
+		EA60F69E2477CBF300A161B0 /* manaStringConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manaStringConverter.swift; sourceTree = "<group>"; };
+		EA60F6A02477D0CA00A161B0 /* benchmarkNormalSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benchmarkNormalSimulation.swift; sourceTree = "<group>"; };
+		EA78F23F2472BE6C000AD983 /* MTGLandCounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MTGLandCounter; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA78F2422472BE6C000AD983 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EA78F2492472BEA3000AD983 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EA78F24C2472BEDD000AD983 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		EA78F24E2472BEF7000AD983 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		EA78F2502472BF22000AD983 /* DrawSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSimulation.swift; sourceTree = "<group>"; };
+		EA78F2522472C939000AD983 /* DrawSimulationSuit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSimulationSuit.swift; sourceTree = "<group>"; };
+		EAE61A692473CA1B00465EA2 /* benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benchmark.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA78F23C2472BE6C000AD983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB88DFCD5A8DA2A5C9C09B29 /* libPods-MTGLandCounter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05886601BD0A866184B8627C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1B829B208D0E7EF0FF48856 /* Pods-MTGLandCounter.debug.xcconfig */,
+				3E0CF669271675CCDD04073A /* Pods-MTGLandCounter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5835DD2812ABBE20402EA80E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62626C484C83EBC63102FCD4 /* libPods-MTGLandCounter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA60F6962477C89A00A161B0 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				EA60F6972477C8C100A161B0 /* generateExcelCSVFile.swift */,
+				EA60F69C2477CA5B00A161B0 /* oneSimulation.swift */,
+				EA60F6A02477D0CA00A161B0 /* benchmarkNormalSimulation.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		EA60F6992477C9B500A161B0 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				EA60F69A2477C9C200A161B0 /* simulate.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		EA78F2362472BE6C000AD983 = {
+			isa = PBXGroup;
+			children = (
+				EA78F2412472BE6C000AD983 /* MTGLandCounter */,
+				EA78F2402472BE6C000AD983 /* Products */,
+				05886601BD0A866184B8627C /* Pods */,
+				5835DD2812ABBE20402EA80E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA78F2402472BE6C000AD983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA78F23F2472BE6C000AD983 /* MTGLandCounter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA78F2412472BE6C000AD983 /* MTGLandCounter */ = {
+			isa = PBXGroup;
+			children = (
+				EA60F6992477C9B500A161B0 /* Functions */,
+				EA60F6962477C89A00A161B0 /* Examples */,
+				EAE61A682473CA0B00465EA2 /* Support */,
+				EA78F24B2472BEA9000AD983 /* Classes */,
+				EA78F2422472BE6C000AD983 /* main.swift */,
+			);
+			path = MTGLandCounter;
+			sourceTree = "<group>";
+		};
+		EA78F24B2472BEA9000AD983 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA78F24C2472BEDD000AD983 /* Hand.swift */,
+				EA78F2492472BEA3000AD983 /* Card.swift */,
+				EA78F24E2472BEF7000AD983 /* Deck.swift */,
+				EA78F2502472BF22000AD983 /* DrawSimulation.swift */,
+				EA78F2522472C939000AD983 /* DrawSimulationSuit.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EAE61A682473CA0B00465EA2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EAE61A692473CA1B00465EA2 /* benchmark.swift */,
+				EA60F69E2477CBF300A161B0 /* manaStringConverter.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA78F23E2472BE6C000AD983 /* MTGLandCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA78F2462472BE6C000AD983 /* Build configuration list for PBXNativeTarget "MTGLandCounter" */;
+			buildPhases = (
+				2305C414439BE1D3CB8CBEE8 /* [CP] Check Pods Manifest.lock */,
+				EA78F23B2472BE6C000AD983 /* Sources */,
+				EA78F23C2472BE6C000AD983 /* Frameworks */,
+				EA78F23D2472BE6C000AD983 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTGLandCounter;
+			productName = MTGLandCounter;
+			productReference = EA78F23F2472BE6C000AD983 /* MTGLandCounter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA78F2372472BE6C000AD983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Marcin Zyga";
+				TargetAttributes = {
+					EA78F23E2472BE6C000AD983 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EA78F23A2472BE6C000AD983 /* Build configuration list for PBXProject "MTGLandCounter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA78F2362472BE6C000AD983;
+			productRefGroup = EA78F2402472BE6C000AD983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA78F23E2472BE6C000AD983 /* MTGLandCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2305C414439BE1D3CB8CBEE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTGLandCounter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA78F23B2472BE6C000AD983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA78F24F2472BEF7000AD983 /* Deck.swift in Sources */,
+				EAE61A6A2473CA1B00465EA2 /* benchmark.swift in Sources */,
+				EA78F2432472BE6C000AD983 /* main.swift in Sources */,
+				EA78F2512472BF22000AD983 /* DrawSimulation.swift in Sources */,
+				EA60F6982477C8C100A161B0 /* generateExcelCSVFile.swift in Sources */,
+				EA78F24A2472BEA3000AD983 /* Card.swift in Sources */,
+				EA60F69B2477C9C200A161B0 /* simulate.swift in Sources */,
+				EA60F6A12477D0CA00A161B0 /* benchmarkNormalSimulation.swift in Sources */,
+				EA60F69F2477CBF300A161B0 /* manaStringConverter.swift in Sources */,
+				EA78F24D2472BEDD000AD983 /* Hand.swift in Sources */,
+				EA78F2532472C939000AD983 /* DrawSimulationSuit.swift in Sources */,
+				EA60F69D2477CA5B00A161B0 /* oneSimulation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA78F2442472BE6C000AD983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA78F2452472BE6C000AD983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EA78F2472472BE6C000AD983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B829B208D0E7EF0FF48856 /* Pods-MTGLandCounter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA78F2482472BE6C000AD983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0CF669271675CCDD04073A /* Pods-MTGLandCounter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA78F23A2472BE6C000AD983 /* Build configuration list for PBXProject "MTGLandCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78F2442472BE6C000AD983 /* Debug */,
+				EA78F2452472BE6C000AD983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA78F2462472BE6C000AD983 /* Build configuration list for PBXNativeTarget "MTGLandCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78F2472472BE6C000AD983 /* Debug */,
+				EA78F2482472BE6C000AD983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA78F2372472BE6C000AD983 /* Project object */;
+}

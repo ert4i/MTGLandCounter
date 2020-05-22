@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157ED9308C250168F247A4DFE50720D2 /* UnicodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1307524DF0D651E59068AC7D41BBA /* UnicodeIterator.swift */; };
+		2851CF7B98D245FB8BD353DEE6A7E4CA /* CSV.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C4DB8E8E1317C432B592A5C795DA15 /* CSV.swift-dummy.m */; };
+		31A5503527620E4FBEA7A5EABE19C2AB /* CSV.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3342CD71F8181B3F5EDD7D50714F1681 /* CSV.swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D9168A8509AA5FCBF186A66F48D10DE /* BinaryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7592EF4444939CFF3DB7339894C435 /* BinaryReader.swift */; };
+		48F507E00A8396D69A85D3561F122495 /* Pods-MTGLandCounter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE6888A96090480674250A10DC224D9 /* Pods-MTGLandCounter-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		707D9D4E22A617550BD567660718FDD1 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A19C85D7EE9BD92FE594154545DCEAD /* Endian.swift */; };
+		745878357149BFDBFCE93AA00AA3D103 /* Pods-MTGLandCounter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2369BD2DBA1AD1F708E8EA474E2B871 /* Pods-MTGLandCounter-dummy.m */; };
+		7C043A90686B52DD77F7F7AED6770D5E /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E6D37415F437039C15B608AD4D0D12 /* CSVWriter.swift */; };
+		856B9A8B5734AAFCD48AE9D1CB6B6185 /* CSVRowDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF3331EB28CEB2154BABB9CCD29AF20 /* CSVRowDecoder.swift */; };
+		8A3760F7F9E26A3823CBC650842DECA1 /* CSVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2295D1EAF9400C2C25D513D0D8AABE14 /* CSVError.swift */; };
+		D95E8E83418EEE8FD6F0A17830A85223 /* Legacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F44EC8E6B033BCB46CB453B7BB3368 /* Legacy.swift */; };
+		DFA4441965847F188B0CAE1D53D88869 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33871579D85CFDFB61698BB6BE4C2D7 /* CSVReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C115325429480C80D6E69825134CB3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9617FEF749C2A4DEB177789B70E08C51;
+			remoteInfo = CSV.swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DF3331EB28CEB2154BABB9CCD29AF20 /* CSVRowDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVRowDecoder.swift; path = Sources/CSV/CSVRowDecoder.swift; sourceTree = "<group>"; };
+		1FE6888A96090480674250A10DC224D9 /* Pods-MTGLandCounter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTGLandCounter-umbrella.h"; sourceTree = "<group>"; };
+		2295D1EAF9400C2C25D513D0D8AABE14 /* CSVError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVError.swift; path = Sources/CSV/CSVError.swift; sourceTree = "<group>"; };
+		3342CD71F8181B3F5EDD7D50714F1681 /* CSV.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-umbrella.h"; sourceTree = "<group>"; };
+		34FD8E0F43E7A62EE274CA5B40104F0A /* CSV.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-prefix.pch"; sourceTree = "<group>"; };
+		4B95C0F492123C945E0A0EA942B6B688 /* CSV.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSV.swift.debug.xcconfig; sourceTree = "<group>"; };
+		527AE613D4C6EDC72556773F932340C6 /* CSV.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSV.swift.modulemap; sourceTree = "<group>"; };
+		554CE1296788D19364F8BD911811FACF /* Pods-MTGLandCounter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTGLandCounter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5971CED7FD746290C1D487CC57DB05BF /* Pods-MTGLandCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTGLandCounter.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD1307524DF0D651E59068AC7D41BBA /* UnicodeIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeIterator.swift; path = Sources/CSV/UnicodeIterator.swift; sourceTree = "<group>"; };
+		64D38C6F1F1F17E7C9E40E3D1182CA1B /* Pods-MTGLandCounter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTGLandCounter.modulemap"; sourceTree = "<group>"; };
+		6A19C85D7EE9BD92FE594154545DCEAD /* Endian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endian.swift; path = Sources/CSV/Endian.swift; sourceTree = "<group>"; };
+		84FD6749476B832E7EAD5D4311367AAE /* Pods-MTGLandCounter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTGLandCounter-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C3E247576020468506D3D6488FD694D /* libPods-MTGLandCounter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MTGLandCounter.a"; path = "libPods-MTGLandCounter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3091A1DC5E0A2C943829D664D1F094 /* CSV.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSV.swift.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4F44EC8E6B033BCB46CB453B7BB3368 /* Legacy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Legacy.swift; path = Sources/CSV/Legacy.swift; sourceTree = "<group>"; };
+		B149E6CCFF31C5551F0CFC6E5E2914B4 /* Pods-MTGLandCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTGLandCounter.release.xcconfig"; sourceTree = "<group>"; };
+		BE5E1CE8769950763CFE5F9A16892E90 /* libCSV.swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCSV.swift.a; path = libCSV.swift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2369BD2DBA1AD1F708E8EA474E2B871 /* Pods-MTGLandCounter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTGLandCounter-dummy.m"; sourceTree = "<group>"; };
+		C6E6D37415F437039C15B608AD4D0D12 /* CSVWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVWriter.swift; path = Sources/CSV/CSVWriter.swift; sourceTree = "<group>"; };
+		CE7592EF4444939CFF3DB7339894C435 /* BinaryReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryReader.swift; path = Sources/CSV/BinaryReader.swift; sourceTree = "<group>"; };
+		E33871579D85CFDFB61698BB6BE4C2D7 /* CSVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVReader.swift; path = Sources/CSV/CSVReader.swift; sourceTree = "<group>"; };
+		F2C4DB8E8E1317C432B592A5C795DA15 /* CSV.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSV.swift-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F479030955C9FF4D80E60FF4DE5E34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50D0F3C7176DB9448E5AF0EBF338637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D01B22FB1F7D8C7F2AEB1AC7D510FBA /* Pods-MTGLandCounter */ = {
+			isa = PBXGroup;
+			children = (
+				64D38C6F1F1F17E7C9E40E3D1182CA1B /* Pods-MTGLandCounter.modulemap */,
+				554CE1296788D19364F8BD911811FACF /* Pods-MTGLandCounter-acknowledgements.markdown */,
+				84FD6749476B832E7EAD5D4311367AAE /* Pods-MTGLandCounter-acknowledgements.plist */,
+				C2369BD2DBA1AD1F708E8EA474E2B871 /* Pods-MTGLandCounter-dummy.m */,
+				1FE6888A96090480674250A10DC224D9 /* Pods-MTGLandCounter-umbrella.h */,
+				5971CED7FD746290C1D487CC57DB05BF /* Pods-MTGLandCounter.debug.xcconfig */,
+				B149E6CCFF31C5551F0CFC6E5E2914B4 /* Pods-MTGLandCounter.release.xcconfig */,
+			);
+			name = "Pods-MTGLandCounter";
+			path = "Target Support Files/Pods-MTGLandCounter";
+			sourceTree = "<group>";
+		};
+		1F7F91AF0BB0835F3989D576311620BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D01B22FB1F7D8C7F2AEB1AC7D510FBA /* Pods-MTGLandCounter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		35DC50D6BF0F448B45367D1937442310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5E1CE8769950763CFE5F9A16892E90 /* libCSV.swift.a */,
+				8C3E247576020468506D3D6488FD694D /* libPods-MTGLandCounter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58732056964C2D816890179162BA432D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5E25F451EC45FFF0CA960EB5602B584 /* CSV.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		771886D2C89F4AD23A1A67FFC039593A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				527AE613D4C6EDC72556773F932340C6 /* CSV.swift.modulemap */,
+				F2C4DB8E8E1317C432B592A5C795DA15 /* CSV.swift-dummy.m */,
+				34FD8E0F43E7A62EE274CA5B40104F0A /* CSV.swift-prefix.pch */,
+				3342CD71F8181B3F5EDD7D50714F1681 /* CSV.swift-umbrella.h */,
+				4B95C0F492123C945E0A0EA942B6B688 /* CSV.swift.debug.xcconfig */,
+				9B3091A1DC5E0A2C943829D664D1F094 /* CSV.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CSV.swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				58732056964C2D816890179162BA432D /* Pods */,
+				35DC50D6BF0F448B45367D1937442310 /* Products */,
+				1F7F91AF0BB0835F3989D576311620BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E25F451EC45FFF0CA960EB5602B584 /* CSV.swift */ = {
+			isa = PBXGroup;
+			children = (
+				CE7592EF4444939CFF3DB7339894C435 /* BinaryReader.swift */,
+				2295D1EAF9400C2C25D513D0D8AABE14 /* CSVError.swift */,
+				E33871579D85CFDFB61698BB6BE4C2D7 /* CSVReader.swift */,
+				0DF3331EB28CEB2154BABB9CCD29AF20 /* CSVRowDecoder.swift */,
+				C6E6D37415F437039C15B608AD4D0D12 /* CSVWriter.swift */,
+				6A19C85D7EE9BD92FE594154545DCEAD /* Endian.swift */,
+				A4F44EC8E6B033BCB46CB453B7BB3368 /* Legacy.swift */,
+				5BD1307524DF0D651E59068AC7D41BBA /* UnicodeIterator.swift */,
+				771886D2C89F4AD23A1A67FFC039593A /* Support Files */,
+			);
+			name = CSV.swift;
+			path = CSV.swift;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		991C5403665066577052731DC077F706 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F507E00A8396D69A85D3561F122495 /* Pods-MTGLandCounter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE44F88789D8BCA998A9287A237DFEBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A5503527620E4FBEA7A5EABE19C2AB /* CSV.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9617FEF749C2A4DEB177789B70E08C51 /* CSV.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84006392465AC61C0627F5E6A24EB431 /* Build configuration list for PBXNativeTarget "CSV.swift" */;
+			buildPhases = (
+				FE44F88789D8BCA998A9287A237DFEBE /* Headers */,
+				32594A036B4CE337D3A4CBFEF57C201B /* Sources */,
+				F50D0F3C7176DB9448E5AF0EBF338637 /* Frameworks */,
+				1C1C38C5A9BD46D963D7115E20605887 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSV.swift;
+			productName = CSV.swift;
+			productReference = BE5E1CE8769950763CFE5F9A16892E90 /* libCSV.swift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCB4F694AD54E584EF7A46EDD9F13BC6 /* Pods-MTGLandCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79974EA66E2FE3BE6D74782AEB64AAC5 /* Build configuration list for PBXNativeTarget "Pods-MTGLandCounter" */;
+			buildPhases = (
+				991C5403665066577052731DC077F706 /* Headers */,
+				81D782F41F7766C79DC720B110D0454F /* Sources */,
+				5F479030955C9FF4D80E60FF4DE5E34C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4913EC33AC5C58F1D5EED10E579C78D /* PBXTargetDependency */,
+			);
+			name = "Pods-MTGLandCounter";
+			productName = "Pods-MTGLandCounter";
+			productReference = 8C3E247576020468506D3D6488FD694D /* libPods-MTGLandCounter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 35DC50D6BF0F448B45367D1937442310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9617FEF749C2A4DEB177789B70E08C51 /* CSV.swift */,
+				DCB4F694AD54E584EF7A46EDD9F13BC6 /* Pods-MTGLandCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C1C38C5A9BD46D963D7115E20605887 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/CSV/CSV.swift.modulemap",
+				"${PODS_ROOT}/Headers/Public/CSV/CSV.swift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/CSV.swift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CSV/CSV.swift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CSV/CSV.swift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32594A036B4CE337D3A4CBFEF57C201B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9168A8509AA5FCBF186A66F48D10DE /* BinaryReader.swift in Sources */,
+				2851CF7B98D245FB8BD353DEE6A7E4CA /* CSV.swift-dummy.m in Sources */,
+				8A3760F7F9E26A3823CBC650842DECA1 /* CSVError.swift in Sources */,
+				DFA4441965847F188B0CAE1D53D88869 /* CSVReader.swift in Sources */,
+				856B9A8B5734AAFCD48AE9D1CB6B6185 /* CSVRowDecoder.swift in Sources */,
+				7C043A90686B52DD77F7F7AED6770D5E /* CSVWriter.swift in Sources */,
+				707D9D4E22A617550BD567660718FDD1 /* Endian.swift in Sources */,
+				D95E8E83418EEE8FD6F0A17830A85223 /* Legacy.swift in Sources */,
+				157ED9308C250168F247A4DFE50720D2 /* UnicodeIterator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D782F41F7766C79DC720B110D0454F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745878357149BFDBFCE93AA00AA3D103 /* Pods-MTGLandCounter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4913EC33AC5C58F1D5EED10E579C78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CSV.swift;
+			target = 9617FEF749C2A4DEB177789B70E08C51 /* CSV.swift */;
+			targetProxy = C115325429480C80D6E69825134CB3BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1AFD68775F6F4E198D257D1197C0BFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5971CED7FD746290C1D487CC57DB05BF /* Pods-MTGLandCounter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTGLandCounter/Pods-MTGLandCounter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4C75514956E2761972D9A7DD35924F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3091A1DC5E0A2C943829D664D1F094 /* CSV.swift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/CSV/CSV.swift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CSV;
+				PRODUCT_NAME = CSV.swift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B0424693042DAF2C90D7AE13B9E1482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B95C0F492123C945E0A0EA942B6B688 /* CSV.swift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/CSV/CSV.swift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CSV;
+				PRODUCT_NAME = CSV.swift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B27A14858DA6C4AA4DF02CE68A559C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B149E6CCFF31C5551F0CFC6E5E2914B4 /* Pods-MTGLandCounter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTGLandCounter/Pods-MTGLandCounter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */,
+				0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79974EA66E2FE3BE6D74782AEB64AAC5 /* Build configuration list for PBXNativeTarget "Pods-MTGLandCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFD68775F6F4E198D257D1197C0BFFB /* Debug */,
+				B27A14858DA6C4AA4DF02CE68A559C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84006392465AC61C0627F5E6A24EB431 /* Build configuration list for PBXNativeTarget "CSV.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0424693042DAF2C90D7AE13B9E1482 /* Debug */,
+				4C75514956E2761972D9A7DD35924F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

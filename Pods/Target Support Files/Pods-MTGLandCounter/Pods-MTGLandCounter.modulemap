@@ -1,0 +1,6 @@
+module Pods_MTGLandCounter {
+  umbrella header "Pods-MTGLandCounter-umbrella.h"
+
+  export *
+  module * { export * }
+}
